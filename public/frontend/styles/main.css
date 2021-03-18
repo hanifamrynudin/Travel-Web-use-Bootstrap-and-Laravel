@@ -1,0 +1,544 @@
+body {
+  background-color: black;
+  font-family: 'Assistant', sans-serif;
+  color: #CE663A;
+}
+
+.navbar {
+  background-color: black !important;
+  width: 100%;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-login {
+  background-color: #CE663A;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-login:hover {
+  background-color: #d67b54;
+  color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f69743;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #f69743;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f8c08f;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  padding-bottom: 550px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 10%;
+}
+
+.carousel-caption {
+  z-index: 100;
+  position: absolute;
+  top: 20%;
+}
+
+.carousel-caption h1, .carousel-caption p {
+  color: black;
+}
+
+.carousel-caption h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.carousel-caption p {
+  font-family: 'Playfair Display', serif;
+  font-size: 23px;
+}
+
+.carousel-caption .btn-get-started {
+  background-color: black;
+  color: #FF5F1C;
+  font-weight: bold;
+}
+
+.carousel-caption .btn-get-started:hover {
+  background-color: #FF5F1C;
+  color: black;
+  font-weight: bold;
+}
+
+.section-stats {
+  padding-top: 150px;
+  margin-top: -150px;
+}
+
+.stats-detail {
+  margin-top: -50px;
+  padding-top: 19px;
+  background-color: black;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.section-list {
+  min-height: 247px;
+  background-color: #CE663A;
+  margin-top: -60px;
+  margin-bottom: -250px;
+}
+
+.section-list-heading {
+  margin-top: 120px;
+}
+
+.section-list-heading h2, .section-list-heading p {
+  color: black;
+}
+
+.section-list-heading h2 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.section-list-heading p {
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+#postsCarousel {
+  margin-top: 230px;
+  min-height: 800px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#CE663A), to(black));
+  background-image: linear-gradient(#CE663A, black);
+}
+
+.owl-carousel {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* control image height */
+.card {
+  margin-top: 0px;
+  background: transparent;
+  border: none;
+  color: #f69743;
+  background-size: cover;
+}
+
+.card-mount {
+  margin-top: 10px;
+  min-height: 450px;
+  background: #614747;
+  color: #f69743;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+.mount-country {
+  font-size: 16px;
+  color: #f69743;
+}
+
+.mount-location {
+  font-size: 23px;
+  color: #f69743;
+  margin: -5px;
+}
+
+.mount-region {
+  font-size: 16px;
+  color: #f69743;
+}
+
+.mount-button .btn-mount-details {
+  background-color: #F69743;
+  color: black;
+}
+
+.mount-button .btn-mount-details:hover {
+  background-color: black;
+  color: #F69743;
+}
+
+.mount-button .card-header {
+  color: white;
+}
+
+.section-networks {
+  background-color: black;
+  margin-top: -150px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.section-networks p {
+  font-size: 18px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.card-testimonial {
+  padding: 40px 50px 50px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+.section-testimonials-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#CE663A));
+  background: linear-gradient(black, #CE663A);
+  padding-top: 150px;
+  margin-top: 55px;
+  min-height: 800px;
+  padding-bottom: 50px;
+}
+
+.section-testimonials-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonials-heading p {
+  font-size: 18px;
+}
+
+.section-testimonials-heading .testimonial-content {
+  min-height: 180px;
+}
+
+.mb-4 {
+  width: 100px !important;
+  margin-left: 30%;
+}
+
+.mb-4 h3 {
+  font-size: 22px;
+  color: #F69743;
+}
+
+.mb-4 .testimonials {
+  font-size: 20px;
+  text-align: center;
+  color: #f69743;
+}
+
+.mb-4 .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #f69743;
+}
+
+.mb-4 hr {
+  background-color: #f69743;
+  font-weight: bolder;
+}
+
+.btn-get-started {
+  background-color: black;
+  color: #f69743;
+}
+
+.btn-get-started:hover {
+  background-color: #f69743;
+  color: black;
+}
+
+.btn-need-help {
+  background-color: transparent;
+  border-color: #f69743;
+  color: #F69743;
+}
+
+.btn-need-help:hover {
+  border-color: black;
+  color: black;
+}
+
+.section-details-header {
+  min-height: 250px;
+  background: #222220;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #F69743;
+}
+
+.section-details-content .card-details {
+  position: relative;
+  padding: 30px;
+  border-radius: 11px;
+  background-color: #CE663A;
+}
+
+.section-details-content .card-details h2 {
+  font-weight: 530;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 530;
+}
+
+.section-details-content .card-details .trip-informations th {
+  border: 1px solid #0000002f;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+
+.section-details-content .card-details .trip-informations td {
+  border: 1px solid #0000002f;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+
+.section-details-content .card-details h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 26px;
+  margin-top: -25px;
+  font-weight: 550;
+  color: #000000;
+}
+
+.section-details-content .card-details h2 {
+  color: #000000;
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: #000000;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+
+.section-details-content .card-right .members {
+  padding-left: 20px;
+}
+
+.section-details-content .card-right h4 {
+  font-weight: 530;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-weight: 530;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #222220;
+  color: #F69743;
+  font-weight: 550;
+  font-size: 20px;
+  border-radius: 0;
+}
+
+.section-details-content .btn-join-now:hover {
+  color: #fff;
+}
+
+.bank .bank-item h3 {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.bank .bank-item .description p {
+  font-family: Assistant;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+}
+
+.bank .bank-item .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.btn-add-now {
+  background-color: #222220;
+  color: #F69743;
+}
+
+.btn-add-now:hover {
+  color: #fff;
+}
+
+.input-group-text {
+  background-color: transparent;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071c4d;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background: #071c4d;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  color: #fff;
+}
+
+.input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #CE663A;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #f69743;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background: #CE663A;
+  color: black;
+}
+
+.section-success .btn-home-page:hover {
+  color: #fff;
+}
+
+span.text-muted {
+  color: #F69743;
+}
+/*# sourceMappingURL=main.css.map */
