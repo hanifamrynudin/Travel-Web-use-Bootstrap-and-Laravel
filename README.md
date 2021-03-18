@@ -1,4 +1,4 @@
-I join online class about fullstcak web developer in Buildwithangga. In this class we must create an project travel website. We build the website using Bootstrap for frontend and Laravel for backend. Even though in this class have full tutorial I try to make this project with something different, and i did it to make different in homepage with carousel content.
+I join online class about fullstack website developer in Buildwithangga. In this class we must create an project travel website. We build the website using Bootstrap for frontend and Laravel for backend. Even though in this class have full tutorial I try to make this project with something different, and i did it to make different in homepage with carousel content.
 <br>
 <br>
 Video Demo : https://github.com/hanifamrynudin/travel-web-bootstrap-laravel-/tree/main/demo
